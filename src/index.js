@@ -2,10 +2,10 @@ import express from 'express'
 import { PORT } from './config/config.js'
 import { swaggerDocs } from './swagger.js'
 
-import userRoutes from './routes/auserRouters.js'
-import postRoutes from './routes/bpostRoutes.js'
-import categoryRoutes from './routes/categoryRoutes.js'
-import commentRoutes from './routes/commentRoutes.js'
+import userRoutes from './routes/auserRouter.js'
+import postRoutes from './routes/bpostRoute.js'
+import categoryRoutes from './routes/categoryRoute.js'
+import commentRoutes from './routes/commentRoute.js'
 
 const app = express()
 app.use(express.json())
